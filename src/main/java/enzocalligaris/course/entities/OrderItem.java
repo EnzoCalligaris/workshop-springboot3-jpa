@@ -1,5 +1,6 @@
 package enzocalligaris.course.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import enzocalligaris.course.entities.pk.OrderItemPK;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
@@ -13,7 +14,7 @@ import java.util.Objects;
 public class OrderItem implements Serializable {
 
     @EmbeddedId
-    private OrderItemPK id;
+    private OrderItemPK id = new OrderItemPK();
 
     private Integer quantity;
     private Double price;
@@ -21,13 +22,14 @@ public class OrderItem implements Serializable {
     public OrderItem(){
     }
 
-    public OrderItem(Product product, Order order, Integer quantity, Double price) {
+    public OrderItem(Order order, Product product , Integer quantity, Double price) {
         id.setOrder(order);
         id.setProduct(product);
         this.quantity = quantity;
         this.price = price;
     }
 
+    @JsonIgnore
     public Order getOrder(){
         return id.getOrder();
     }
