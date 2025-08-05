@@ -58,12 +58,12 @@ public class Order implements Serializable {
         this.moment = moment;
     }
 
-    public User getClinet() {
+    public User getClient() {
         return client;
     }
 
-    public void setClinet(User clinet) {
-        this.client = clinet;
+    public void setClinet(User client) {
+        this.client = client;
     }
 
     public Set<OrderItem> getItems() {
