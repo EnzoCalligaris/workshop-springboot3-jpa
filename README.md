@@ -31,7 +31,6 @@ Este projeto é uma API RESTful desenvolvida para simular o backend de um sistem
 - Postman
 - Apache Tomcat
 - Banco de dados: H2
-## Implantação em produção
 - Banco de dados: Postgresql
 
 # Como executar o projeto
