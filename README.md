@@ -8,7 +8,9 @@ Projeto de web services é uma aplicação back end web construída durante o cu
 Este projeto é uma API RESTful desenvolvida para simular o backend de um sistema de vendas de um workshop. Com ele, é possível gerenciar usuários, produtos, categorias e pedidos, retornando todos os dados completos de uma compra — incluindo os detalhes do cliente e o valor total do pedido.
 
 ## Layout 
-![Layout](https://github.com/EnzoCalligaris/workshop-springboot3-jpa/blob/main/assets/Layout.png)
+![Layout](https://github.com/EnzoCalligaris/workshop-springboot3-jpa/blob/main/assets/Layout1.png)
+
+![Layout2](https://github.com/EnzoCalligaris/workshop-springboot3-jpa/blob/main/assets/Layout2.png)
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/EnzoCalligaris/workshop-springboot3-jpa/blob/main/assets/image.png)
