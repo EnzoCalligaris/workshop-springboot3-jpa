@@ -19,8 +19,7 @@ Este projeto é uma API RESTful desenvolvida para simular o backend de um sistem
 - Cadastro de usuários
 - Cadastro de produtos
 - Cadastro de categorias
--  Criação de pedidos
--  Consulta de pedidos com:
+- Consulta de pedidos com:
     * Itens adquiridos
     * Preço total
     * Informações do comprador
