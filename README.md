@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-O projeto de workshop é uma aplicação backend web desenvolvida durante o curso do Nelio Alves, com base nos ensinamentos adquiridos ao longo dele
+O projeto Workshop é uma aplicação web backend desenvolvida durante o curso do Nelio Alves, com base nos ensinamentos adquiridos ao longo das aulas.
 
 Este projeto é uma API REST desenvolvida para simular o backend de um sistema de vendas de um workshop. Com ele, é possível gerenciar usuários, produtos, categorias e pedidos, retornando todos os dados completos de uma compra — incluindo os detalhes do cliente e o valor total do pedido.
 
