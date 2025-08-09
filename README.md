@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Projeto de web services é uma aplicação back end web construída durante o curso do Nelio Alves com base nos ensinamentes adquiridos ao decorrer dele.
+Projeto de web services é uma aplicação back end web construída durante o curso do Nelio Alves com base nos ensinamentos adquiridos ao decorrer dele.
 
 Este projeto é uma API REST desenvolvida para simular o backend de um sistema de vendas de um workshop. Com ele, é possível gerenciar usuários, produtos, categorias e pedidos, retornando todos os dados completos de uma compra — incluindo os detalhes do cliente e o valor total do pedido.
 
